@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+$bp-largest: 75em;     // 1200px
+$bp-large: 68.75em;    // 1100px
+$bp-medium: 56.25em;   // 900px
+$bp-small: 37.5em;     // 600px
+$bp-smallest: 31.25em; // 500px
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+
+	@media only screen and (max-width: $bp-large) {
+		font-size: 50%;
+	}
+}
+
+
+html {
+	// This defines what 1rem is
+	font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+
+	@include respond(tab-land) { // width < 1200?
+		font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+	}
+
+	@include respond(tab-port) { // width < 900?
+		font-size: 50%; //1 rem = 8px, 8/16 = 50%
+	}
+
+	@include respond(big-desktop) {
+		font-size: 75%; //1rem = 12, 12/16
+	}
+}
+
+body {
+	box-sizing: border-box;
+	padding: 1rem;
+	// background-color: $color-secondary-dark;
+	background-color: $color-white;
+	padding-right: 5rem;
+	padding-left: 5rem;
+
+	@include respond(tab-port) {
+		padding: 0;
+	}
+}
+
+::selection {
+	background-color: $color-primary;
+	color: $color-white;
+}

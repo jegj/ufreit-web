@@ -1,0 +1,24 @@
+.header {
+	font-size: 1.4rem;
+	height: 7rem;
+	background-color: $color-white;
+	border-bottom: 1px solid $color-grey-light-1;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	&__container {
+		align-items: stretch;
+		display: flex;
+		min-height: 3.75rem;
+		width: 100%;
+		color: black
+	}
+
+	@media only screen and (max-width: $bp-smallest) {
+		flex-wrap: wrap;
+		align-content: space-around;
+		height: 9rem;
+	}
+}
