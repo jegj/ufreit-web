@@ -11,6 +11,26 @@
 	box-sizing: inherit;
 }
 
+
+// COLORS
+$color-primary-light: #20FFA6;
+$color-primary-dark: #20FFA6;
+
+$color-secondary-dark: #1C293E;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+// FONT
+$default-font-size: 1.6rem;
+
 $bp-largest: 75em;     // 1200px
 $bp-large: 68.75em;    // 1100px
 $bp-medium: 56.25em;   // 900px
@@ -57,7 +77,7 @@ body {
 	}
 }
 
-::selection {
-	background-color: $color-primary;
-	color: $color-white;
-}
+// ::selection {
+// 	background-color: $color-primary;
+// 	color: $color-white;
+// }
