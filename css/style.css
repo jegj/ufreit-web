@@ -129,6 +129,10 @@ body {
         border-bottom: 1px solid #f4f4f4; } }
     .nav__link:hover {
       background-color: #20FFA6; }
+  .nav__menu-btn__icon {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem; }
 
 .blue-bg {
   display: -webkit-box;
