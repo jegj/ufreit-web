@@ -13,6 +13,7 @@
 	}
 
 	&__container {
+		padding: .5rem;
 		display: flex;
 		width: 90%;
 		margin: 0 auto;
@@ -67,7 +68,7 @@
 			flex-direction: column;
 			overflow: auto;
 			direction: rtl;
-			transition: all 400ms;
+			transition: all 600ms;
 			max-height: 80vh;
 		}
 	}
@@ -84,7 +85,6 @@
 		text-decoration: none;
 		font-weight: 600;
 		font-size: 1.2rem;
-		-webkit-transition: 200ms;
 		transition: 200ms;
 
 		@media screen and (min-width: 701px) {
@@ -99,7 +99,7 @@
 		}
 
 		&:hover {
-			background-color: #f1f1f1;
+			background-color: $color-primary-dark;
 		}
 
 		// .active-link {

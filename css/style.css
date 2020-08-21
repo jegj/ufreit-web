@@ -65,6 +65,7 @@ body {
       flex-direction: column;
       text-align: center; } }
   .nav__container {
+    padding: .5rem;
     display: flex;
     width: 90%;
     margin: 0 auto;
@@ -107,7 +108,7 @@ body {
         flex-direction: column;
         overflow: auto;
         direction: rtl;
-        transition: all 400ms;
+        transition: all 600ms;
         max-height: 80vh; } }
   @media screen and (max-width: 700px) {
     .nav__list--hide {
@@ -118,7 +119,6 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 1.2rem;
-    -webkit-transition: 200ms;
     transition: 200ms; }
     @media screen and (min-width: 701px) {
       .nav__link {
@@ -130,4 +130,4 @@ body {
         font-size: 1.3rem;
         border-bottom: 1px solid #f4f4f4; } }
     .nav__link:hover {
-      background-color: #f1f1f1; }
+      background-color: #20FFA6; }
