@@ -1,146 +1,109 @@
-// .header {
-// 	font-size: 1.4rem;
-// 	height: 7rem;
-// 	background-color: $color-white;
-// 	border-bottom: 1px solid $color-grey-light-1;
+.nav {
+	// https://github.com/awulkan/FlexNav
+	position: fixed;
+	top: 0;
+	z-index: 9000;
+	width: 100%;
+	background-color: white;
+	border-bottom: 1px solid #ddd;
 
-// 	display: flex;
-// 	justify-content: space-between;
-// 	align-items: center;
+	@media screen and (max-width: 700px) {
+		flex-direction: column;
+		text-align: center;
+	}
 
-// 	&__container {
-// 		align-items: stretch;
-// 		display: flex;
-// 		min-height: 3.75rem;
-// 		width: 100%;
-// 		color: black
-// 	}
+	&__container {
+		display: flex;
+		width: 90%;
+		margin: 0 auto;
+		justify-content: space-between;
 
-// 	@media only screen and (max-width: $bp-smallest) {
-// 		flex-wrap: wrap;
-// 		align-content: space-around;
-// 		height: 9rem;
-// 	}
-// }
+		@media screen and (max-width: 700px) {
+			flex-direction: column;
+			text-align: center;
+			width: 100%;
+		}
+	}
 
+	&__header {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 
-nav {
-  background: #fff;
-  padding: 5px 20px;
-}
+	&__logo {
+		height: 2.5rem;
+		margin-left: 2rem;
+		@media screen and (max-width: 1040px) {
+			margin-left: 1rem;
+		}
+	}
 
-ul {
-  list-style-type: none;
-}
-a {
-  // color: white;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-.logo a:hover {
-  text-decoration: none;
-}
-.menu li {
-  font-size: 16px;
-  padding: 15px 5px;
-  white-space: nowrap;
-}
-.logo a,
-.toggle a {
-  font-size: 20px;
-}
-.button.secondary {
-  border-bottom: 1px #444 solid;
-}
-/* Mobile menu */
-.menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-.toggle {
-  order: 1;
-}
-.item.button {
-  order: 2;
-}
-.item {
-  width: 100%;
-  text-align: center;
-  order: 3;
-  display: none;
-}
-.item.active {
-  display: block;
-}
-/* Tablet menu */
-@media all and (min-width: 600px) {
-  .menu {
-    justify-content: center;
-  }
-  .logo {
-    flex: 1;
-  }
-  .toggle {
-    flex: 1;
-    text-align: right;
-  }
-  .item.button {
-    width: auto;
-    order: 1;
-    display: block;
-  }
-  .toggle {
-    order: 2;
-  }
-  .button.secondary {
-    border: 0;
-  }
-  .button a {
-    padding: 7.5px 15px;
-    background: teal;
-    border: 1px #006d6d solid;
-  }
-  .button.secondary a {
-    background: transparent;
-  }
-  .button a:hover {
-    text-decoration: none;
-  }
-  .button:not(.secondary) a:hover {
-    background: #006d6d;
-    border-color: #005959;
-  }
-  .button.secondary a:hover {
-    color: #ddd;
-  }
-}
-/* Desktop menu */
-@media all and (min-width: 900px) {
-  .item {
-    display: block;
-    width: auto;
-  }
-  .toggle {
-    display: none;
-  }
-  .logo {
-    order: 0;
-  }
-  .item {
-    order: 1;
-  }
-  .button {
-    order: 2;
-  }
-  .menu li {
-    padding: 15px 10px;
-  }
-  .menu li.button {
-    padding-right: 0;
-  }
-}
+	&__menu-btn {
+		@media screen and (max-width: 700px) {
+			padding: 1rem;
+			background-color: #f1f1f1;
+			cursor: pointer;
+		}
+		@media screen and (min-width: 701px) {
+			display: none;
+		}
+	}
 
+	&__list {
+		display: flex;
+		max-width: 700px;
+		list-style-type: none;
+
+		&-item {
+			display: flex;
+		}
+
+		@media screen and (max-width: 700px) {
+			display: block;
+			flex-direction: column;
+			overflow: auto;
+			direction: rtl;
+			transition: all 400ms;
+			max-height: 80vh;
+		}
+	}
+
+	&__list--hide {
+		@media screen and (max-width: 700px) {
+			max-height: 0;
+		}
+	}
+
+	&__link {
+		flex: 1;
+		color: #444;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 1.2rem;
+		-webkit-transition: 200ms;
+		transition: 200ms;
+
+		@media screen and (min-width: 701px) {
+			flex-basis: auto;
+			padding: 1rem 1.5rem;
+		}
+
+		@media screen and (max-width: 700px) {
+			padding: 1rem 0;
+			font-size: 1.3rem;
+			border-bottom: 1px solid #f4f4f4;
+		}
+
+		&:hover {
+			background-color: #f1f1f1;
+		}
+
+		// .active-link {
+		// 	background-color: #f1f1f1;
+		// }
+	}
+}
