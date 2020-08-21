@@ -67,14 +67,12 @@ body {
   .nav__container {
     padding: .5rem;
     display: flex;
-    width: 90%;
     margin: 0 auto;
     justify-content: space-between; }
     @media screen and (max-width: 700px) {
       .nav__container {
         flex-direction: column;
-        text-align: center;
-        width: 100%; } }
+        text-align: center; } }
   .nav__header {
     display: -webkit-box;
     display: -webkit-flex;
@@ -131,3 +129,23 @@ body {
         border-bottom: 1px solid #f4f4f4; } }
     .nav__link:hover {
       background-color: #20FFA6; }
+
+.blue-bg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #0082ca;
+  color: #fff;
+  margin-top: 3.2rem;
+  font-size: 2rem;
+  height: 18rem; }
