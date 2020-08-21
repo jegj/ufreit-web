@@ -82,7 +82,7 @@ body {
     align-items: center; }
   .nav__logo {
     height: 2.5rem;
-    margin-left: 2rem; }
+    margin-left: 1rem; }
     @media screen and (max-width: 1040px) {
       .nav__logo {
         margin-left: 1rem; } }
@@ -130,8 +130,8 @@ body {
     .nav__link:hover {
       background-color: #20FFA6; }
   .nav__menu-btn__icon {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     margin-top: 1rem; }
 
 .blue-bg {
