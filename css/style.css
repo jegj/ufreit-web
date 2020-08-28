@@ -159,8 +159,8 @@ body {
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font-size: 1.2rem;
-  padding: 5rem;
+  font-size: 1.4rem;
+  padding: 3rem;
   margin-top: 80px;
   position: fixed;
   bottom: 0;
@@ -177,14 +177,28 @@ body {
     fill: #fff;
     height: 2.5rem;
     width: 2.5rem; }
-  @media (max-width: 37.5em) {
-    .footer__container--logo {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%; } }
+  .footer__info__text {
+    text-align: center;
+    margin: 1rem; }
+  .footer__info__icons {
+    fill: #fff;
+    width: 1.7rem;
+    height: 1.7rem;
+    vertical-align: middle;
+    margin-right: 5px; }
+  .footer__container {
+    margin-top: 1rem; }
+    @media (max-width: 37.5em) {
+      .footer__container--logo {
+        display: block;
+        margin: auto; }
+      .footer__container--social {
+        order: 2; }
+      .footer__container--info {
+        order: 3; } }
+  .footer__email {
+    color: #fff; }
   .footer__icons {
-    margin-top: 1rem;
     text-align: center; }
   .footer__copy {
     margin-top: 1rem;

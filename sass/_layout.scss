@@ -139,8 +139,8 @@
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font-size: 1.2rem;
-	padding: 5rem;
+	font-size: 1.4rem;
+	padding: 3rem;
 	margin-top: 80px;
 	position: fixed;
 	bottom: 0;
@@ -163,19 +163,42 @@
 		width: 2.5rem;
 	}
 
+	&__info__text {
+		text-align: center;
+		margin: 1rem;
+	}
+
+	&__info__icons {
+		fill: $color-white;
+		width: 1.7rem;
+		height: 1.7rem;
+		vertical-align: middle;
+		margin-right: 5px;;
+	}
+
 	&__container {
+		margin-top: 1rem;
 		@media (max-width:$bp-small){
 			&--logo {
 				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				width: 50%;
+				margin: auto;
+			}
+
+			&--social {
+				order:2
+			}
+
+			&--info {
+				order:3
 			}
 		}
 	}
 
+	&__email {
+		color:$color-white;
+	}
+
 	&__icons{
-		margin-top: 1rem;
 		text-align: center;
 	}
 
