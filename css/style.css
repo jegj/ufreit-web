@@ -196,8 +196,9 @@ body {
         order: 2; }
       .footer__container--info {
         order: 3; } }
-  .footer__email {
-    color: #fff; }
+  .footer__contanct__link {
+    color: #fff;
+    text-decoration: none; }
   .footer__icons {
     text-align: center; }
   .footer__copy {
