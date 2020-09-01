@@ -45,8 +45,20 @@ html {
     html {
       font-size: 75%; } }
 
+@font-face {
+  font-family: 'Literal bold';
+  src: url("../fonts/literal-bold.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Literal light';
+  src: url("../fonts/literal-light.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Literal bold';
+  src: url("../fonts/literal-regular.otf") format("opentype"); }
+
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Literal light', sans-serif;
   box-sizing: border-box;
   background-color: #fff; }
   @media only screen and (max-width: 56.25em) {
@@ -58,7 +70,7 @@ body {
   top: 0;
   z-index: 9000;
   width: 100%;
-  background-color: white;
+  background-color: #1C293E;
   border-bottom: 1px solid #ddd; }
   @media screen and (max-width: 700px) {
     .nav {
@@ -89,11 +101,15 @@ body {
   @media screen and (max-width: 700px) {
     .nav__menu-btn {
       padding: 1rem;
-      background-color: #f1f1f1;
       cursor: pointer; } }
   @media screen and (min-width: 701px) {
     .nav__menu-btn {
       display: none; } }
+  .nav__menu-btn__icon {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    fill: #fff; }
   .nav__list {
     display: flex;
     max-width: 700px;
@@ -113,7 +129,7 @@ body {
       max-height: 0; } }
   .nav__link {
     flex: 1;
-    color: #444;
+    color: #fff;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.2rem;
@@ -125,14 +141,10 @@ body {
     @media screen and (max-width: 700px) {
       .nav__link {
         padding: 1rem 0;
-        font-size: 1.3rem;
-        border-bottom: 1px solid #f7f7f7; } }
+        font-size: 1.3rem; } }
     .nav__link:hover {
-      background-color: #20FFA6; }
-  .nav__menu-btn__icon {
-    width: 2rem;
-    height: 2rem;
-    margin-top: 1rem; }
+      background-color: #20FFA6;
+      color: #1C293E; }
 
 .blue-bg {
   display: -webkit-box;
@@ -159,7 +171,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   padding: 3rem;
   margin-top: 80px;
   position: fixed;
@@ -169,7 +181,6 @@ body {
   color: #fff; }
   @media (max-width: 37.5em) {
     .footer {
-      position: static;
       flex-direction: column; } }
   .footer__logo {
     height: 3rem; }
