@@ -64,8 +64,21 @@ html {
 	}
 }
 
+@font-face{
+	font-family:'Literal bold';
+	src: url('../fonts/literal-bold.otf') format('opentype');
+}
+@font-face{
+	font-family:'Literal light';
+	src: url('../fonts/literal-light.otf') format('opentype');
+}
+@font-face{
+	font-family:'Literal bold';
+	src: url('../fonts/literal-regular.otf') format('opentype');
+}
+
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Literal light', sans-serif;
 	box-sizing: border-box;
 	background-color: $color-white;
 
