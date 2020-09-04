@@ -97,14 +97,13 @@ body {
 	&--main {
 			display: block;
 			font-size: 2rem;
-			letter-spacing: 1.5rem;
+			letter-spacing: 1.75rem;
 			animation-name: moveInLeft;
 			animation-duration: 1s;
 			animation-timing-function: ease-out;
 
 			@include respond(phone) {
-				letter-spacing: 1rem;
-				font-family: 5rem;
+				letter-spacing: .5rem;
 			}
 			/*
 			animation-delay: 3s;
