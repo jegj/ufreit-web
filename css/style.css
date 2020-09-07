@@ -69,21 +69,21 @@ body {
   color: #1C293E;
   text-transform: uppercase;
   backface-visibility: hidden;
-  margin-bottom: 6rem; }
+  margin-bottom: 3rem; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-primary {
+      margin-bottom: 2rem; } }
   .heading-primary--main {
     display: block;
     font-size: 2rem;
-    letter-spacing: 1.75rem;
+    letter-spacing: .8rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
-    animation-timing-function: ease-out;
-    /*
-			animation-delay: 3s;
-			animation-iteration-count: 3;
-			*/ }
+    animation-timing-function: ease-out; }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--main {
-        letter-spacing: .5rem; } }
+        letter-spacing: .5rem;
+        font-size: 1.5rem; } }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -295,20 +295,20 @@ body {
     text-align: center; }
 
 .banner {
-  height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.5), rgba(238, 238, 238, 0.5)), url(../img/road.jpg);
+  min-height: 50vh;
+  background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.5), rgba(238, 238, 238, 0.5)), url(../img/road2.png);
   background-size: cover;
   background-position: top;
   position: relative; }
   .banner__logo {
-    height: 10rem;
-    margin-bottom: 2rem; }
+    height: 5rem;
+    margin-bottom: 1rem; }
     @media (max-width: 37.5em) {
       .banner__logo {
-        height: 8rem; } }
+        display: none; } }
   .banner__text-box {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
