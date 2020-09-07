@@ -1,11 +1,11 @@
 ///////////////////banner/////////////////////
 .banner {
-	min-height: 50vh;
+	min-height: 55vh;
 	background-image: linear-gradient(
 			to right bottom,
 			rgba($color-grey-light-1, 0.5),
 			rgba($color-grey-light-2, 0.5)),
-		url(../img/road2.png);
+		url(../img/road2.jpg);
 	background-size: cover;
 	background-position: top;
 	position: relative;
@@ -25,18 +25,25 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		text-align: center;
+		@media (max-width:$bp-small){
+			top: 60%
+		}
+	}
+
+	@media (max-width:$bp-small){
+		min-height: 45vh;
 	}
 }
 
 ////////////////////////us/////////////////////
 .us {
-	padding-top: 5rem;
+	padding-top: 3rem;
 	background: #f5f5f5;
 	text-align: center;
 }
 ///////////////////howworks/////////////////////
 .howworks {
-	padding-top: 5rem;
+	padding-top: 3rem;
 	background: #f5f5f5;
 
 	&__header {
