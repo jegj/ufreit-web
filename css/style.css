@@ -76,13 +76,12 @@ body {
   .heading-primary--main {
     display: block;
     font-size: 2rem;
-    letter-spacing: .8rem;
+    letter-spacing: .5rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out; }
     @media only screen and (max-width: 37.5em) {
       .heading-primary--main {
-        letter-spacing: .5rem;
         font-size: 1.5rem; } }
 
 .btn, .btn:link, .btn:visited {
@@ -295,8 +294,8 @@ body {
     text-align: center; }
 
 .banner {
-  min-height: 55vh;
-  background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.5), rgba(238, 238, 238, 0.5)), url(../img/road2.jpg);
+  min-height: 65vh;
+  background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.5), rgba(238, 238, 238, 0.5)), url(../img/road.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -307,6 +306,7 @@ body {
       .banner__logo {
         display: none; } }
   .banner__text-box {
+    width: 70%;
     position: absolute;
     top: 50%;
     left: 50%;
