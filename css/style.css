@@ -294,8 +294,8 @@ body {
     text-align: center; }
 
 .banner {
-  min-height: 65vh;
-  background-image: linear-gradient(to right bottom, rgba(247, 247, 247, 0.5), rgba(238, 238, 238, 0.5)), url(../img/road.jpg);
+  min-height: 30vh;
+  background-image: url(../img/road.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }

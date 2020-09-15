@@ -1,11 +1,12 @@
 ///////////////////banner/////////////////////
 .banner {
-	min-height: 65vh;
-	background-image: linear-gradient(
-			to right bottom,
-			rgba($color-grey-light-1, 0.5),
-			rgba($color-grey-light-2, 0.5)),
-		url(../img/road.jpg);
+	min-height: 30vh;
+	background-image: url(../img/road.jpg);
+	// background-image: linear-gradient(
+	// 		to right bottom,
+	// 		rgba($color-grey-light-1, 0.5),
+	// 		rgba($color-grey-light-2, 0.5)),
+	// 	url(../img/road.jpg);
 	background-size: cover;
 	background-position: top;
 	position: relative;
