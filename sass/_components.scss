@@ -1,14 +1,14 @@
 ///////////////////banner/////////////////////
 .banner {
-	min-height: 30vh;
-	background-image: url(../img/road.jpg);
+	min-height: 70vh;
+	background-image: url(../img/banner2.jpg);
 	// background-image: linear-gradient(
 	// 		to right bottom,
 	// 		rgba($color-grey-light-1, 0.5),
 	// 		rgba($color-grey-light-2, 0.5)),
 	// 	url(../img/road.jpg);
 	background-size: cover;
-	background-position: top;
+	background-position: center;
 	position: relative;
 
 	&__logo {
@@ -21,14 +21,16 @@
 	}
 
 	&__text-box {
-		width: 70%;
+		font-family: 'Literal bold';
+		width: 50%;
 		position: absolute;
-		top: 50%;
-		left: 50%;
+		top: 30%;
+		left: 73%;
 		transform: translate(-50%, -50%);
 		text-align: center;
 		@media (max-width:$bp-small){
-			top: 60%
+			top: 50%;
+			left: 50%;
 		}
 	}
 

@@ -75,7 +75,7 @@ body {
       margin-bottom: 2rem; } }
   .heading-primary--main {
     display: block;
-    font-size: 2rem;
+    font-size: 1.7rem;
     letter-spacing: .5rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
@@ -83,6 +83,15 @@ body {
     @media only screen and (max-width: 37.5em) {
       .heading-primary--main {
         font-size: 1.5rem; } }
+  .heading-primary--sub {
+    margin-top: 30px;
+    display: block;
+    font-size: 1rem;
+    text-align: center;
+    animation: moveInRight 1s ease-out; }
+    @media only screen and (max-width: 37.5em) {
+      .heading-primary--sub {
+        letter-spacing: .5rem; } }
 
 .btn, .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -294,10 +303,10 @@ body {
     text-align: center; }
 
 .banner {
-  min-height: 30vh;
-  background-image: url(../img/road.jpg);
+  min-height: 70vh;
+  background-image: url(../img/banner2.jpg);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   position: relative; }
   .banner__logo {
     height: 5rem;
@@ -306,15 +315,17 @@ body {
       .banner__logo {
         display: none; } }
   .banner__text-box {
-    width: 70%;
+    font-family: 'Literal bold';
+    width: 50%;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 30%;
+    left: 73%;
     transform: translate(-50%, -50%);
     text-align: center; }
     @media (max-width: 37.5em) {
       .banner__text-box {
-        top: 60%; } }
+        top: 50%;
+        left: 50%; } }
   @media (max-width: 37.5em) {
     .banner {
       min-height: 45vh; } }
