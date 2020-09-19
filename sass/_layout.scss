@@ -1,7 +1,7 @@
 /// NAV
 .nav {
 	// https://github.com/awulkan/FlexNav
-	position: fixed;
+	// position: fixed;
 	top: 0;
 	z-index: 9000;
 	width: 100%;
@@ -33,6 +33,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		padding-left: 13rem;
 	}
 
 	&__logo {
@@ -66,6 +67,7 @@
 		display: flex;
 		max-width: 700px;
 		list-style-type: none;
+		padding-right: 13rem;
 
 		&-item {
 			display: flex;
