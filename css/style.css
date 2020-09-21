@@ -67,7 +67,6 @@ body {
 
 .heading-primary {
   color: #1C293E;
-  text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 3rem; }
   @media only screen and (max-width: 37.5em) {
@@ -124,8 +123,8 @@ body {
     background-color: #fff; }
 
 .btn--blue {
-  background-color: #1C293E;
-  color: #fff; }
+  background-color: #20FFA6;
+  color: #1C293E; }
   .btn--blue::after {
     background-color: #1C293E; }
 

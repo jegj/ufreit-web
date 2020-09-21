@@ -90,7 +90,7 @@ body {
 .heading-primary {
 	color: $color-secondary-dark;
 	// color: $color-secondary-dark;
-	text-transform: uppercase;
+	// text-transform: uppercase;
 	backface-visibility: hidden;
 	margin-bottom: 3rem;
 
@@ -170,8 +170,8 @@ body {
 	}
 
 	&--blue {
-			background-color: $color-secondary-dark;
-			color: $color-white;
+			background-color: $color-primary-light;
+			color: $color-secondary-dark;
 
 			&::after {
 				background-color: $color-secondary-dark;
