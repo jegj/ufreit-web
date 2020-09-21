@@ -5,28 +5,22 @@
 	display: flex;
 	flex-wrap: nowrap;
 
-	@media (max-width:$bp-small){
+	@media screen and (max-width: 1040px) {
 		flex-direction: column;
-	}
-
-	&__image__container {
-		// flex: 0 0 30%;
 	}
 
 	&__image {
 		height: 100%;
 		width: 600px;
-		@media (max-width:$bp-small){
+		@media screen and (max-width: 1040px) {
 			width: 100%;
-			height: 30%;
+			height: 20%;
 		}
 	}
 
 	&__text__container {
 		position: relative;
 		width: 100%;
-		@media (max-width:$bp-small){
-		}
 	}
 
 	&__text-box {
@@ -37,8 +31,13 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		text-align: center;
-		@media (max-width:$bp-small){
+		@media screen and (max-width: 1040px) {
+			margin-top: 2rem;
 			position: relative;
+			width: 100%;
+			top: 0;
+			left: 0;
+			transform: none;
 		}
 	}
 }
