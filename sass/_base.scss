@@ -87,44 +87,6 @@ body {
 	}
 }
 
-.heading-primary {
-	color: $color-secondary-dark;
-	// color: $color-secondary-dark;
-	// text-transform: uppercase;
-	backface-visibility: hidden;
-	margin-bottom: 3rem;
-
-	@include respond(phone) {
-		margin-bottom: 2rem;
-	}
-
-	&--main {
-		display: block;
-		font-size: 3rem;
-		letter-spacing: .5rem;
-		animation-name: moveInLeft;
-		animation-duration: 1s;
-		animation-timing-function: ease-out;
-		@include respond(phone) {
-			font-size: 1.5rem;
-		}
-	}
-
-	&--sub {
-		margin-top: 30px;
-		display: block;
-		font-size: 1.5rem;
-		text-align: center;
-		// font-weight: 700;
-		// letter-spacing: 1.75rem;
-		animation: moveInRight 1s ease-out;
-
-		@include respond(phone) {
-			letter-spacing: .5rem;
-		}
-	}
-}
-
 .btn {
 	&,
 	&:link,
@@ -169,12 +131,12 @@ body {
 			}
 	}
 
-	&--blue {
+	&--green {
 			background-color: $color-primary-light;
 			color: $color-secondary-dark;
 
 			&::after {
-				background-color: $color-secondary-dark;
+				background-color: $color-primary-light;
 			}
 	}
 
@@ -219,20 +181,5 @@ body {
 	&:active {
 			box-shadow: 0 .5rem 1rem rgba($color-black, .15);
 			transform: translateY(0);
-	}
-}
-
-
-.container {
-	// max-width: 120rem;
-	margin: 0 8rem auto;
-	background-color: white;
-	// box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
-	min-height: 50rem;
-
-	@media only screen and (max-width: $bp-largest) {
-		margin: 0;
-		max-width: 100%;
-		width: 100%;
 	}
 }
