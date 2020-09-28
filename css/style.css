@@ -285,7 +285,7 @@ body {
 
 .banner {
   background-color: #f7f7f7;
-  min-height: 70vh;
+  min-height: 50vh;
   display: flex;
   flex-wrap: nowrap; }
   @media screen and (max-width: 1040px) {
@@ -331,37 +331,48 @@ body {
     text-align: center;
     animation: moveInRight 1s ease-out; }
 
-.us {
-  padding-top: 3rem;
-  text-align: center; }
-
 .howworks {
-  padding-top: 3rem; }
-  .howworks__header {
-    text-align: center; }
-  .howworks__title {
-    font-family: 'Literal bold';
-    font-size: 3rem;
-    color: #1C293E;
-    letter-spacing: 2px; }
+  padding: 3rem 0rem; }
   .howworks__content {
     display: flex;
-    justify-content: space-around;
-    padding-top: 3rem; }
+    justify-content: space-around; }
     @media (max-width: 37.5em) {
       .howworks__content {
         flex-direction: column; } }
+  .howworks__separator {
+    margin: 30px 6%;
+    border-top: 1px solid;
+    border-top-color: #D4D4D4; }
+  .howworks__features {
+    display: table;
+    margin: 0px auto 0px auto; }
+    .howworks__features li {
+      position: relative;
+      list-style-type: none;
+      padding-left: 2.5rem;
+      margin-bottom: 0.5rem; }
+    .howworks__features li:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 5px;
+      height: 11px;
+      border-width: 0 2px 2px 0;
+      border-style: solid;
+      border-color: #20FFA6;
+      transform-origin: bottom left;
+      transform: rotate(45deg); }
   .howworks__box {
-    width: 33.3%;
-    font-size: 1.4rem;
-    padding: 15px 15px 15px 15px; }
+    font-size: 1.6rem;
+    padding: 1rem; }
     @media (max-width: 37.5em) {
       .howworks__box {
         width: 100%; } }
     .howworks__box__header {
       text-align: center; }
     .howworks__box__image {
-      height: 4rem;
+      height: 10rem;
       fill: #1C293E; }
     .howworks__box__body {
       text-align: justify;
