@@ -132,3 +132,31 @@
 		}
 	}
 }
+
+///////////////////howworks/////////////////////
+.steps {
+	background-color: $color-grey-light-1;
+	&__content {
+		display: flex;
+		justify-content: space-around;
+
+		@media (max-width:$bp-small){
+			// position: static;
+			flex-direction: column;
+		}
+	}
+
+	&__box {
+		// width: 50%;
+		// margin: 0px 3rem 0px 3rem;
+		font-size: 1.6rem;
+		// border: 1px solid  red;
+		padding: 1rem;
+		text-align: center;
+
+		&__image {
+			height: 5rem;
+			fill:$color-secondary-dark;
+		}
+	}
+}

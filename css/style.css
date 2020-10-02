@@ -377,3 +377,19 @@ body {
     .howworks__box__body {
       text-align: justify;
       padding: 1rem; }
+
+.steps {
+  background-color: #f7f7f7; }
+  .steps__content {
+    display: flex;
+    justify-content: space-around; }
+    @media (max-width: 37.5em) {
+      .steps__content {
+        flex-direction: column; } }
+  .steps__box {
+    font-size: 1.6rem;
+    padding: 1rem;
+    text-align: center; }
+    .steps__box__image {
+      height: 5rem;
+      fill: #1C293E; }
