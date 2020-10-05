@@ -4,6 +4,7 @@
 	min-height: 50vh;
 	display: flex;
 	flex-wrap: nowrap;
+	padding: 10rem 0rem;
 
 	@media screen and (max-width: 1040px) {
 		flex-direction: column;
@@ -53,15 +54,15 @@
 		margin-top: 30px;
 		margin-bottom: 1.8rem;
 		display: block;
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 		text-align: center;
 		animation: moveInRight 1s ease-out;
 	}
 }
 
 ///////////////////howworks/////////////////////
-.howworks {
-	padding: 3rem 0rem;
+.whyus {
+	padding: 10rem 0rem;
 	&__content {
 		display: flex;
 		justify-content: space-around;
@@ -102,13 +103,14 @@
 			border-color: $color-primary-light;
 			transform-origin: bottom left;
 			transform: rotate(45deg);
+			margin-top: 5px;
 		}
 	}
 
 	&__box {
 		// width: 50%;
 		// margin: 0px 3rem 0px 3rem;
-		font-size: 1.6rem;
+		font-size: 1.8rem;
 		// border: 1px solid  red;
 		padding: 1rem;
 
@@ -134,7 +136,8 @@
 }
 
 ///////////////////howworks/////////////////////
-.steps {
+.howworks {
+	padding: 10rem 0rem;
 	background-color: $color-grey-light-1;
 	&__content {
 		display: flex;
@@ -159,4 +162,10 @@
 			fill:$color-secondary-dark;
 		}
 	}
+}
+
+
+///////////////////us/////////////////////
+.us {
+	padding: 10rem 0rem;
 }
