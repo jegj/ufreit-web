@@ -185,3 +185,23 @@ body {
 			transform: translateY(0);
 	}
 }
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: $color-grey-light-2;
+	padding: 0.5rem 1rem;
+	font-size: 1.2rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.field:focus{
+	border: 2px solid rgba(28, 41, 62, 0.47);
+	background-color: #fff;
+}
