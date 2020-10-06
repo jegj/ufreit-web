@@ -341,7 +341,16 @@
 		document.addEventListener("DOMContentLoaded", () => {
 			var navButton = document.querySelector("#nav-menu-button");
 			var navUl = document.querySelector(".nav__list");
-			function toggleMobileMenu() {
+			var navLink = document.querySelectorAll('.nav__link');
+
+			navLink.forEach(( navlinkEl ) => {
+				navlinkEl.onclick = () => {
+					navUl.classList.toggle("nav__list--hide");
+				};
+			});
+
+			function toggleMobileMenu(e) {
+				e.preventDefault();
 				navUl.classList.toggle("nav__list--hide");
 			}
 			navButton.onclick = toggleMobileMenu;

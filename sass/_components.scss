@@ -64,7 +64,7 @@
 .whyus {
 	padding: 10rem 0rem;
 	@media (max-width:$bp-medium) {
-		padding: 5rem 0rem;
+		padding: 8rem 0rem;
 	}
 
 	&__content {
@@ -145,7 +145,7 @@
 
 ///////////////////howworks/////////////////////
 .howworks {
-	padding: 5rem 0rem;
+	padding: 10rem 0rem;
 	text-align: center;
 
 	&__ecomerce__title {
@@ -154,7 +154,7 @@
 	}
 
 	&__ecomerce__description {
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 		padding-bottom: 2rem;
 	}
 
@@ -165,12 +165,12 @@
 	}
 
 	&__carrier__description {
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 		padding-bottom: 2rem;
 	}
 
 	@media (max-width:$bp-medium) {
-		padding: 5rem 0rem;
+		padding: 8rem 0rem;
 	}
 
 	background-color: $color-grey-light-1;
@@ -195,7 +195,8 @@
 		padding: 1rem;
 		text-align: center;
 		@media (max-width:$bp-largest){
-			flex:0 50%;
+			flex:0 25%;
+			padding-top: 4rem;
 		}
 
 		@media (max-width:$bp-small){
@@ -206,6 +207,10 @@
 			height: 5rem;
 			fill:$color-secondary-dark;
 		}
+
+		& h5 {
+			font-size: 1.8rem;
+		}
 	}
 }
 
@@ -214,7 +219,7 @@
 .us {
 	padding: 10rem 0rem;
 	@media (max-width:$bp-medium) {
-		padding: 5rem 0rem;
+		padding: 8rem 0rem;
 	}
 	// align-content: ce;
 	text-align: center;

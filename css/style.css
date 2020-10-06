@@ -336,7 +336,7 @@ body {
   padding: 10rem 0rem; }
   @media (max-width: 56.25em) {
     .whyus {
-      padding: 5rem 0rem; } }
+      padding: 8rem 0rem; } }
   .whyus__content {
     display: flex;
     justify-content: space-between; }
@@ -390,25 +390,25 @@ body {
       padding: 1rem; }
 
 .howworks {
-  padding: 5rem 0rem;
+  padding: 10rem 0rem;
   text-align: center;
   background-color: #f7f7f7; }
   .howworks__ecomerce__title {
     font-size: 3rem;
     padding-bottom: 2rem; }
   .howworks__ecomerce__description {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding-bottom: 2rem; }
   .howworks__carrier__title {
     padding-bottom: 2rem;
     padding-top: 6rem;
     font-size: 3rem; }
   .howworks__carrier__description {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding-bottom: 2rem; }
   @media (max-width: 56.25em) {
     .howworks {
-      padding: 5rem 0rem; } }
+      padding: 8rem 0rem; } }
   .howworks__content {
     display: flex;
     justify-content: space-around;
@@ -427,20 +427,23 @@ body {
     text-align: center; }
     @media (max-width: 75em) {
       .howworks__box {
-        flex: 0 50%; } }
+        flex: 0 25%;
+        padding-top: 4rem; } }
     @media (max-width: 37.5em) {
       .howworks__box {
         flex: 1; } }
     .howworks__box__image {
       height: 5rem;
       fill: #1C293E; }
+    .howworks__box h5 {
+      font-size: 1.8rem; }
 
 .us {
   padding: 10rem 0rem;
   text-align: center; }
   @media (max-width: 56.25em) {
     .us {
-      padding: 5rem 0rem; } }
+      padding: 8rem 0rem; } }
   .us__header {
     font-size: 4rem;
     margin-bottom: 5px; }
