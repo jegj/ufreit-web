@@ -288,7 +288,7 @@ body {
   min-height: 50vh;
   display: flex;
   flex-wrap: nowrap;
-  padding: 10rem 0rem; }
+  padding: 4rem 0rem; }
   @media screen and (max-width: 1040px) {
     .banner {
       flex-direction: column; } }
