@@ -63,6 +63,10 @@
 ///////////////////howworks/////////////////////
 .whyus {
 	padding: 10rem 0rem;
+	@media (max-width:$bp-medium) {
+		padding: 5rem 0rem;
+	}
+
 	&__content {
 		display: flex;
 		justify-content: space-between;
@@ -72,7 +76,7 @@
 			flex-wrap: nowrap;
 		}
 
-		@media (max-width:$bp-large) {
+		@media (max-width:$bp-medium) {
 			flex-wrap: wrap;
 		}
 	}
@@ -142,6 +146,11 @@
 ///////////////////howworks/////////////////////
 .howworks {
 	padding: 10rem 0rem;
+
+	@media (max-width:$bp-medium) {
+		padding: 5rem 0rem;
+	}
+
 	background-color: $color-grey-light-1;
 	&__content {
 		display: flex;
@@ -180,7 +189,10 @@
 
 ///////////////////US/////////////////////
 .us {
-	padding: 5rem 0rem;
+	padding: 10rem 0rem;
+	@media (max-width:$bp-medium) {
+		padding: 5rem 0rem;
+	}
 	// align-content: ce;
 	text-align: center;
 

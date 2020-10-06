@@ -334,6 +334,9 @@ body {
 
 .whyus {
   padding: 10rem 0rem; }
+  @media (max-width: 56.25em) {
+    .whyus {
+      padding: 5rem 0rem; } }
   .whyus__content {
     display: flex;
     justify-content: space-between; }
@@ -341,7 +344,7 @@ body {
       .whyus__content {
         flex-direction: column;
         flex-wrap: nowrap; } }
-    @media (max-width: 68.75em) {
+    @media (max-width: 56.25em) {
       .whyus__content {
         flex-wrap: wrap; } }
   .whyus__separator {
@@ -389,6 +392,9 @@ body {
 .howworks {
   padding: 10rem 0rem;
   background-color: #f7f7f7; }
+  @media (max-width: 56.25em) {
+    .howworks {
+      padding: 5rem 0rem; } }
   .howworks__content {
     display: flex;
     justify-content: space-around; }
@@ -415,8 +421,11 @@ body {
       fill: #1C293E; }
 
 .us {
-  padding: 5rem 0rem;
+  padding: 10rem 0rem;
   text-align: center; }
+  @media (max-width: 56.25em) {
+    .us {
+      padding: 5rem 0rem; } }
   .us__header {
     font-size: 4rem;
     margin-bottom: 5px; }
