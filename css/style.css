@@ -450,7 +450,8 @@ body {
   .us__content {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    padding-top: 4rem; }
     @media (max-width: 37.5em) {
       .us__content {
         flex-direction: column;
@@ -461,7 +462,7 @@ body {
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
-    margin: 20px;
+    margin: 15px;
     flex: 0 20%; }
     @media (max-width: 56.25em) {
       .us__box {
