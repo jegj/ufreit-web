@@ -172,7 +172,6 @@
 	}
 
 	&__container {
-		margin-top: 1rem;
 		@media (max-width:$bp-small){
 			&--logo {
 				display: block;
@@ -196,6 +195,9 @@
 
 	&__icons{
 		text-align: center;
+		& > a {
+			text-decoration: none;
+		}
 	}
 
 	&__copy {

@@ -282,21 +282,21 @@ body {
     vertical-align: middle;
     margin-right: 5px;
     margin-bottom: 3px; }
-  .footer__container {
-    margin-top: 1rem; }
-    @media (max-width: 37.5em) {
-      .footer__container--logo {
-        display: block;
-        margin: auto; }
-      .footer__container--social {
-        order: 2; }
-      .footer__container--info {
-        order: 3; } }
+  @media (max-width: 37.5em) {
+    .footer__container--logo {
+      display: block;
+      margin: auto; }
+    .footer__container--social {
+      order: 2; }
+    .footer__container--info {
+      order: 3; } }
   .footer__contanct__link {
     color: #fff;
     text-decoration: none; }
   .footer__icons {
     text-align: center; }
+    .footer__icons > a {
+      text-decoration: none; }
   .footer__copy {
     margin-top: 1rem;
     text-align: center; }
