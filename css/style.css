@@ -560,8 +560,6 @@ body {
     height: 100%;
     left: 0;
     top: 0;
-    background: url("../img/pic3.jpg") no-repeat center;
-    background-size: cover;
     filter: blur(50px);
     z-index: -1; }
   .contactus__box {
