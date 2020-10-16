@@ -217,7 +217,7 @@
 
 ///////////////////US/////////////////////
 .us {
-	padding: 10rem 0rem;
+	padding: 10rem 5rem;
 	@media (max-width:$bp-medium) {
 		padding: 8rem 0rem;
 	}
@@ -408,7 +408,7 @@
 		position: relative;
 		padding: 0 0 10px;
 		margin-bottom: 10px;
-		font-size: 2rem;
+		font-size: 3rem;
 
 		&:after {
 			content: '';
@@ -417,7 +417,7 @@
 			bottom: 0;
 			transform: translateX(-50%);
 			height: 4px;
-			width: 50px;
+			width: 100px;
 			border-radius: 2px;
 			background-color: $color-primary-light;
 		}
