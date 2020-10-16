@@ -135,15 +135,12 @@
 	text-align: left;
 	font-size: 1.3rem;
 	padding: 3rem;
-	// margin-top: 300px;
-	// position: fixed;
 	bottom: 0;
 	display: flex;
 	justify-content: space-between;
 	color:$color-white;
 
 	@media (max-width:$bp-small){
-		// position: static;
 		flex-direction: column;
 	}
 
@@ -176,6 +173,7 @@
 			&--logo {
 				display: block;
 				margin: auto;
+				display: none;
 			}
 
 			&--social {

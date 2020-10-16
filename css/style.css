@@ -285,7 +285,8 @@ body {
   @media (max-width: 37.5em) {
     .footer__container--logo {
       display: block;
-      margin: auto; }
+      margin: auto;
+      display: none; }
     .footer__container--social {
       order: 2; }
     .footer__container--info {
