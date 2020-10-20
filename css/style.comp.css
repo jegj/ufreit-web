@@ -434,7 +434,7 @@ body {
       padding: 8rem 0rem; } }
   .howworks__content {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 5rem; }
     @media (max-width: 37.5em) {
       .howworks__content {

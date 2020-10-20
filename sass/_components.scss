@@ -178,10 +178,9 @@
 		padding: 8rem 0rem;
 	}
 
-
 	&__content {
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 		padding-top: 5rem;
 
 		@media (max-width:$bp-small){
