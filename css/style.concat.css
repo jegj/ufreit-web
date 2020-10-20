@@ -414,14 +414,18 @@ body {
   background-color: #f7f7f7; }
   .howworks__ecomerce__title {
     font-size: 3rem;
-    padding-bottom: 2rem; }
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem; }
   .howworks__ecomerce__description {
     font-size: 1.7rem;
     padding-bottom: 2rem; }
   .howworks__carrier__title {
     padding-bottom: 2rem;
     padding-top: 6rem;
-    font-size: 3rem; }
+    font-size: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem; }
   .howworks__carrier__description {
     font-size: 1.7rem;
     padding-bottom: 2rem; }
@@ -442,7 +446,7 @@ body {
   .howworks__box {
     width: 100%;
     font-size: 1.6rem;
-    padding: 1rem;
+    padding: .5rem;
     text-align: center; }
     @media (max-width: 75em) {
       .howworks__box {
@@ -452,10 +456,10 @@ body {
       .howworks__box {
         flex: 1; } }
     .howworks__box__image {
-      height: 5rem;
+      height: 4rem;
       fill: #1C293E; }
     .howworks__box h5 {
-      font-size: 1.5rem; }
+      font-size: 1.4rem; }
 
 .us {
   padding: 10rem 5rem;

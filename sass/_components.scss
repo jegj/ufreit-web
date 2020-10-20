@@ -147,10 +147,13 @@
 .howworks {
 	padding: 10rem 0rem;
 	text-align: center;
+	background-color: $color-grey-light-1;
 
 	&__ecomerce__title {
 		font-size: 3rem;
 		padding-bottom: 2rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 
 	&__ecomerce__description {
@@ -162,6 +165,8 @@
 		padding-bottom: 2rem;
     padding-top: 6rem;
 		font-size: 3rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
 	}
 
 	&__carrier__description {
@@ -173,7 +178,7 @@
 		padding: 8rem 0rem;
 	}
 
-	background-color: $color-grey-light-1;
+
 	&__content {
 		display: flex;
 		justify-content: space-around;
@@ -192,7 +197,7 @@
 	&__box {
 		width: 100%;
 		font-size: 1.6rem;
-		padding: 1rem;
+		padding: .5rem;
 		text-align: center;
 		@media (max-width:$bp-largest){
 			flex:0 25%;
@@ -204,12 +209,12 @@
 		}
 
 		&__image {
-			height: 5rem;
+			height: 4rem;
 			fill:$color-secondary-dark;
 		}
 
 		& h5 {
-			font-size: 1.5rem;
+			font-size: 1.4rem;
 		}
 	}
 }
