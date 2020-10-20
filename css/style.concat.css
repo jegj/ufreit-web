@@ -163,10 +163,10 @@ body {
     transform: translate(0); } }
 
 .container {
-  margin: 0 5rem auto;
+  margin: 0 3.5rem auto;
   background-color: white;
   min-height: 50rem; }
-  @media only screen and (max-width: 75em) {
+  @media only screen and (max-width: 1630px) {
     .container {
       margin: 0;
       max-width: 100%;
@@ -455,7 +455,7 @@ body {
       height: 5rem;
       fill: #1C293E; }
     .howworks__box h5 {
-      font-size: 1.8rem; }
+      font-size: 1.5rem; }
 
 .us {
   padding: 10rem 5rem;
