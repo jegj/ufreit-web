@@ -182,15 +182,16 @@
 		display: flex;
 		justify-content: space-around;
 		padding-top: 5rem;
+		flex-wrap: wrap;
 
 		@media (max-width:$bp-small){
 			flex-direction: column;
 			flex-wrap: nowrap;
 		}
 
-		@media (max-width:$bp-largest){
-			flex-wrap: wrap;
-		}
+		// @media (max-width:$bp-largest){
+		// 	flex-wrap: wrap;
+		// }
 	}
 
 	&__box {
