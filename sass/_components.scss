@@ -420,4 +420,28 @@
 			background-color: $color-primary-light;
 		}
 	}
+
+	&__success_message {
+		font-size: 1.5rem;
+	}
+}
+
+
+.field:valid {
+  border-color: black;
+}
+.field:invalid {
+  border-color: red;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .5s linear;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s .5s, opacity .5s linear;
 }
