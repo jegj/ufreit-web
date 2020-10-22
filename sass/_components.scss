@@ -163,7 +163,7 @@
 
 	&__carrier__title {
 		padding-bottom: 2rem;
-    padding-top: 6rem;
+		padding-top: 6rem;
 		font-size: 3rem;
 	}
 
@@ -426,22 +426,14 @@
 	}
 }
 
-
-.field:valid {
-  border-color: black;
-}
-.field:invalid {
-  border-color: red;
-}
-
 .visible {
-  visibility: visible;
-  opacity: 1;
-  transition: opacity .5s linear;
+	visibility: visible;
+	opacity: 1;
+	transition: opacity .5s linear;
 }
 
 .hidden {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s .5s, opacity .5s linear;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s .5s, opacity .5s linear;
 }
