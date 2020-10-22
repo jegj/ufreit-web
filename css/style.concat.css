@@ -616,12 +616,6 @@ body {
   .contactus__success_message {
     font-size: 1.5rem; }
 
-.field:valid {
-  border-color: black; }
-
-.field:invalid {
-  border-color: red; }
-
 .visible {
   visibility: visible;
   opacity: 1;
